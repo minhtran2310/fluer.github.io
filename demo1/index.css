@@ -1,0 +1,121 @@
+#footer{
+    padding: 10px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #242424;
+    background-color: #f5f5f5;
+    border-top: groove 4px #f5f5f5;
+}
+.item-footer{
+    width: 20%;
+    margin: 0 1%;
+}
+.item-footer from input[type="text"]{
+    line-height: 1em;
+    width: 70%;
+    margin: 0;
+    padding: 0.6em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+.item-footer form input[type="button"]{
+    width: 20%;
+    line-height: 2.2em;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    border:  none; cursor: pointer;
+    background-color: #fa3c7a;
+    color: #ffffff;
+}
+.item-footer a{
+    color: #fa3c7a;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.copyright {
+    color: black;
+    padding: 10px;
+    line-height: 20px;
+    background-color: pink;
+    text-align: center;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+  
+}
+.logo{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    transition: all 1s;
+   
+    z-index: 100;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#main-menu {
+    display: flex;
+}
+ul#main-menu a{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+}
+header.sticky{
+    background: pink;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+header.sticky .logo{
+    color: #000;
+}
+header.sticky #main-menu a{
+    color: #000;
+}
+ul#main-menu a:hover{
+    background-color: #fa3c7a;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.src{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-top: 3px;
+}

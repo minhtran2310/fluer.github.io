@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js">
+    
+   
+    </script>
+    <script>
+         $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                }else {
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header id="header"> 
+        <div class="inner-header container">
+            <a href="" class="logo">FLEUR</a>
+           
+            <nav>
+                <ul id="main-menu">
+                    <input type="text" name="" id="" value="search...." class="src">
+                   
+                    <li><a href="home.html" target="chuyentrang">Home</a></li>
+                    <li><a href="shop.html" target="chuyentrang">Product</a></li>
+                    <li><a href="">Sale</a></li>
+                    <li><a href="">Cart</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <iframe src="home.html" frameborder="0" name="chuyentrang"  height="3000px" width="100%"></iframe>
+    </div>
+
+    <footer id="footer">
+        <div class="item-footer">
+            <h4>Join The Club !</h4>
+            <p>Receive Fluer Emails and be the first to know about 
+                exclusive offers , promotions , and more.
+            </p>
+            <form action="">
+                <input type="text" placeholder="Enter E-mail Address">
+                <input type="button" value="GO">
+            </form>
+ 
+        </div>
+        <div class="item-footer">
+            <h4>Connect with  Fluer</h4>
+            <p>Get the lastest news and offers</p>
+            <a href="#"><i class="ti-facebook"></i></a>
+            <a href="#"><i class="ti-sharethis"></i></a>
+            <a href="#"><i class="ti-twitter-alt"></i></a>
+            <a href="#"><i class="ti-google"></i></a>
+ 
+        </div>
+        <div class="item-footer">
+            <h4>Get Rewarded!</h4>
+            <p>Earn rewards like discounts and free bouquets</p>
+            <a href="#">Fluer <b>rewards</b></a>
+        </div>
+ 
+     </footer>
+     <div class="copyright">
+         Copyright © 2022 Willow Studio | Site design by Trần Văn Minh
+     </div>
+    
+</body>
+</html>

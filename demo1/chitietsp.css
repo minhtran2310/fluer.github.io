@@ -1,0 +1,143 @@
+#container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .clearfix {
+    clear: both;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .asleft {
+    width: 35%;
+    float: left;
+  }
+  .asleft img {
+    width: 100%;
+  }
+  .asright {
+    width: 60%;
+    float: left;
+    padding-left: 50px;
+    text-align: justify;
+  }
+  button {
+    width: 60%;
+    background-color: red;
+    margin-left: 150px;
+    padding: 15px 0;
+    font-size: 1.2em;
+  }
+  button:hover {
+    background-color: brown;
+    color: yellow;
+  }
+  .asright p {
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  #thongtin p {
+    font-size: 1.3em;
+    padding: 20px 0;
+  }
+  #thongtin img {
+    width: 100%;
+  }
+  .anh {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #thongtin h2 {
+    padding: 20px 0;
+    color: red;
+  }
+  #lienhe {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 50px;
+    border: 5px solid brown;
+    margin-bottom: 50px;
+  }
+  #lienhe .dathang {
+    background-color: rgb(235, 44, 75);
+    padding: 10px 0;
+    text-align: center;
+  }
+  #lienhe .o {
+    padding: 15px 0;
+    margin-left: 100px;
+  }
+  #lienhe input,
+  textarea {
+    padding: 10px 0;
+    width: 80%;
+  }
+  .column {
+    width: 18%;
+    margin: 20px 8px;
+    padding: 20px 10px;
+    float: left;
+    text-align: center;
+  }
+  .sanpham {
+    border-radius: 5px;
+    padding: 5px 5px 20px 5px;
+  
+    box-shadow: 0 0 5px black;
+    position: relative;
+  }
+  .sanpham img {
+    width: 100%;
+  }
+  .sanpham > .name {
+    text-align: justify;
+    padding: 20px 10px;
+    font-size: 1.2em;
+  }
+  .sanpham > .giatien {
+    text-align: left;
+    padding: 10px 3%;
+    font-size: 1.2em;
+  }
+  .sanpham > .icon {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    font-size: 25px;
+  }
+  .column a {
+    text-decoration: none;
+    color: black;
+  }
+  .sanpham:hover {
+    box-shadow: 0 0 10px black;
+    background-color: rgb(236, 225, 225);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #main {
+  }
+  .logo img {
+    width: 20%;
+    padding-bottom: 20px;
+  }
+  
+  hr {
+    background-color: yellowgreen;
+    height: 5px;
+  }
+  .tieude h2{
+      text-align: center;
+  }
+  
